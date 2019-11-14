@@ -1,0 +1,125 @@
+body {
+  background-color: #f1f3f6;
+  height: 100vh;
+  box-sizing: border-box;
+}
+body h1,
+body h2 {
+  text-align: center;
+}
+body .lista table {
+  /* background-color: green; */
+}
+body .pedido .batata-wrapper {
+  background-color: white;
+  margin: 0 auto;
+  border: 1px solid #e6e6e6;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 34px;
+  border-radius: 3px;
+}
+body .pedido .batata-wrapper h3 {
+  margin-top: 0px;
+  font-size: 20px;
+}
+body .pedido .batata-wrapper .contador-wrapper {
+  text-align: center;
+}
+body .pedido .batata-wrapper .contador-wrapper .contador {
+  width: 30px;
+}
+body .pedido .batata-wrapper .icone-success {
+  position: absolute;
+  font-size: 40px;
+  color: #30b830;
+  right: -11px;
+  top: -17px;
+}
+body .pedido .batata-wrapper .preco {
+  padding: 6px;
+  font-weight: bold;
+}
+body .pedido .batata-wrapper .ingredientes {
+  list-style: square;
+  padding-left: 0;
+}
+body .pedido ul {
+  list-style: none;
+}
+body .pedido #itens {
+  margin: 0 5px;
+  background: white;
+  border-radius: 10px;
+}
+body .pedido #itens .item {
+  border-radius: 5px 0 0 5px;
+}
+body .pedido #itens .item .img-item {
+  margin-top: 20px;
+  width: 100%;
+  border-right: none;
+  padding: 3px;
+  text-align: center;
+  border-radius: 10px;
+}
+body .pedido #itens .item .img-item #info {
+  padding: 0 20px;
+  height: 100px;
+  text-align: center;
+}
+body .pedido #itens .item .img-item #info p {
+  font-size: 1.5vw;
+}
+body .pedido #itens .item .img-item #info h1 {
+  font-size: 3vw;
+  margin-top: 10px;
+}
+body .pedido #itens #adicionais {
+  border-radius: 0 5px 5px 0;
+}
+body .pedido #itens #ingredientes,
+body .pedido #itens #adicionais {
+  padding: 10px;
+}
+body .pedido #itens #ingredientes ul,
+body .pedido #itens #adicionais ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+body .pedido #itens #ingredientes ul li,
+body .pedido #itens #adicionais ul li {
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: white;
+}
+body .pedido #itens #ingredientes ul li span,
+body .pedido #itens #adicionais ul li span {
+  float: right;
+  padding-right: 10px;
+}
+body .pedido #itens #ingredientes ul li button,
+body .pedido #itens #adicionais ul li button {
+  border: none;
+  background: none;
+}
+body .pedido #itens #observacao {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+body .pedido #itens #observacao textarea {
+  width: 70%;
+  resize: none;
+  padding: 10px;
+}
+body .pedido #itens #prosseguir {
+  text-align: right;
+  padding: 10px;
+}
+body .pedido #proximo {
+  height: 50vh;
+  clear: both;
+}
